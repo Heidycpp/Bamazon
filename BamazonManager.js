@@ -71,7 +71,7 @@ function viewLowInventory() {
 		});
 		
 		for(var i = 0; i < res.length; i++) {
-			if(res[i].StockQuantity < 5) {		//Will only push products with less than 5 quantity
+			if(res[i].StockQuantity < 5) {		
 				table.push(
 			    	[res[i].itemID, res[i].ProductName, res[i].DepartmentName, parseFloat(res[i].Price).toFixed(2), res[i].StockQuantity]
 				);
