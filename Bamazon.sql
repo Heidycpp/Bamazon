@@ -1,5 +1,4 @@
 
-
 CREATE TABLE IF NOT EXISTS `departments` (
   `DepartmentID` int(11) NOT NULL AUTO_INCREMENT,
   `DepartmentName` varchar(100) NOT NULL,
