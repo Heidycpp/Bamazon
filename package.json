@@ -1,7 +1,7 @@
 {
-  "name": "node-mysql",
+  "name": "bamazon",
   "version": "1.0.0",
-  "description": "package.json",
+  "description": "Node application to simulate amazon",
   "main": "BamazonCustomer.js",
   "dependencies": {
     "cli-table": "^0.3.1",
@@ -17,6 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/Heidycpp/node-mysql.git"
   },
+  "keywords": [
+    "bamazon",
+    "amazon",
+    "mysql",
+    "node"
+  ],
   "author": "Heidy",
   "license": "ISC",
   "bugs": {
